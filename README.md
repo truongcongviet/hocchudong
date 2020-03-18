@@ -10,5 +10,6 @@ note everything I learned
 ## Thuộc tính là một đặt tính để mô tả đói tượng
 ## Phương thức là một sự xác định về cách thức hoạt đọng được thực thi
 ## Hàm thiết lập ("`Contructor)"` là một phương thức đặt biệt phải được gọi trước khi sử dụng bất kỳ PT nào tronng một lớp. Hàm thiết
-lập khởi tạo các thuộc tính và cấp phát bộ nhớ.
+## lập khởi tạo các thuộc tính và cấp phát bộ nhớ.
+## Biến trong java:
 
