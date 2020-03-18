@@ -23,5 +23,9 @@ note everything I learned
 ### - Vị trí khai báo là trong các phương thức, contructor hoặc block
 ### - Các biến cục bộ chỉ có thể nhìn thấy trong phương thức khai báo, constructor hoặc block
 ## 1.2.1 Biến thực thể ( instance)
-### - Các biến thực thể được khai báo bên trong class nhưng bên ngoài phương thức, contructor.
-### - 
+### - Các biến thực thể được khai báo bên trong class nhưng bên ngoài phương thức, contructor
+### - vd: public __String__ _name_;
+## 1.2.3 Biến Static
+### - được khia báo bên trong lớp nhưng bên ngoài các phương thức, contructoer or block
+### - Các biến tĩnh thường được dùng khi muốn khai báo hằng số
+### - vd: private static __double__ _salary_;
