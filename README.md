@@ -29,3 +29,8 @@ note everything I learned
 ### - được khia báo bên trong lớp nhưng bên ngoài các phương thức, contructoer or block
 ### - Các biến tĩnh thường được dùng khi muốn khai báo hằng số
 ### - vd: private static __double__ _salary_;
+## Bài WRAPPER (19/03/2020):
+## Đây là link bài học [Wrapperinjava](https://viettuts.vn/java/lop-wrapper-trong-java)
+### Ý nghĩa : wrapper trong java là cung cấp cơ chế chuyển đổi kiểu dữ liệu nguyên thủy thành kiểu dữ liệu đối tượng.
+### Các Wrapper class cung cấp cho chúng ta nhiều method để thao tác với kiểu dữ liệu nguyên thuỷ tương ứng
+### Wrapper class cung cấp cho chúng ta nhiều cơ giúp thao tác nhanh gọn thế nhưng không phải lúc nào cũng sử dụng chúng. Vì Wrapper class sẽ phải khởi object và tốn bộ nhớ hơn. Chúng ta cần phân tích kỹ trước khi sử dụng.
