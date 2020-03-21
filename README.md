@@ -38,6 +38,41 @@ note everything I learned
 ### 1. ưu điểm:
 #### Tối ưu code: Gom các phần tử liên quan vào chung một với nhau giúp code gọn gàng hơn. Có thể truy cập ngấu nhiên: Do các vị trí ô lưu trữ liên tiếp ta có thể truy cập ngấu nhiên bằng chỉ số phần tử dễ dàng và nhanh chóng.
 ### 2. Nhược điểm
-#### Giới hạn kích thước: Khi sử dụng mảng ta phải khai báo kích thước lưu trữ của mảng và không thể thay đổi kích thước trong lúc chạy. Vùng lưu trữ phải liên tiếp: Đây cũng là vừa ưu vừa nhược điểm. Vì yêu cầu các ô nhớ liên tiếp nên phải tốn không gian bộ nhớ, hoặc đủ ô nhớ nhớ nhưng các ô nhớ không tiếp nên không thể khai báo được.
+#### - Giới hạn kích thước: Khi sử dụng mảng ta phải khai báo kích thước lưu trữ của mảng và không thể thay đổi kích thước trong lúc chạy. Vùng lưu trữ phải liên tiếp: Đây cũng là vừa ưu vừa nhược điểm. Vì yêu cầu các ô nhớ liên tiếp nên phải tốn không gian bộ nhớ, hoặc đủ ô nhớ nhớ nhưng các ô nhớ không tiếp nên không thể khai báo được.
 ### ** Cách khai báo:
 ### <kiểu dữ liệu> [] <tên mảng> = new <kiểu dữ liệu>[kích cỡ mảng];
+# Vòng lặp (loop):
+## Đây là link bài học [Loopinjava](https://www.javatpoint.com/java-for-loop)
+## ![alt text](https://www.javatpoint.com/java-for-loop/java-loops.png)
+## 1_ For Loop
+- Sử dụng khi biết rõ về số lần lặp, cú pháp vòng lặp __for__ là:
+### for(init; condition; incr/decr){
+### // code to be executed 
+### }
+## Trong đó: 
+- __init__ :  biểu thức thi hành một lần khi bắt đầu vòng lặp 
+
+- __condition__: mỗi lần kiểm tra điều kiện này là true thì khối lệnh thi hành, nếu false sẽ thoát khỏi vòng lặp.
+
+- __Decrement__  thi hành mỗi lần đến cuỗi vòng lặp
+## 2_ WHILE loop:
+
+### - Vòng lặp __while__ thi hành khối lệnh khi mà điều kiện kiểm tra vẫn là __true__ , Cú pháp thực thi câu lệnh:
+
+### while(condition){  
+### //code to be executed 
+### }
+## 3_ DO WHILE LOOP:
+
+### - Tương tự vòng lặp while nhưng khối lệnh thi hành trước rồi mới kiểm tra điều kiện, nếu điều kiện đúng thì lặp lại. Có nghĩa là do ... while khối lệnh luôn có ít nhất một lần được thi hành
+
+### do{  
+### //code to be executed  
+### while(condition); 
+
+# Switch Case: 
+## - Đây là link bài học [Switch](https://www.javatpoint.com/java-switch)
+
+### - Lệnh switch rẽ nhánh, nó kiểm tra biến với một danh sách giá trị. Một giá trị gọi là một trường hợp case, và khối lệnh thi hành từ đó nếu điều kiện kiểm tra trên là đúng.
+
+### - Nếu expression không bằng giá trị nào trong các case thì có hai trường hợp xảy ra: Nếu có khối default: thì sẽ chạy code từ đây, nếu không có default: khi không có code nào trong khối switch thi hành.
