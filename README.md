@@ -76,3 +76,31 @@ note everything I learned
 ### - Lệnh switch rẽ nhánh, nó kiểm tra biến với một danh sách giá trị. Một giá trị gọi là một trường hợp case, và khối lệnh thi hành từ đó nếu điều kiện kiểm tra trên là đúng.
 
 ### - Nếu expression không bằng giá trị nào trong các case thì có hai trường hợp xảy ra: Nếu có khối default: thì sẽ chạy code từ đây, nếu không có default: khi không có code nào trong khối switch thi hành.
+# 22/03/2020
+## Lệnh Break trong java
+## Link (https://www.javatpoint.com/java-break)
+### - Từ khóa break được sử dụng để dừng toàn bộ vòng lặp. __Từ khóa break phải được sử dụng bên trong bất kỳ vòng lặp nào hoặc một lệnh switch.__ 
+### - Từ khóa break sẽ dừng sự thực thi của vòng lặp trong cùng và bắt đầu thực thi dòng code tiếp theo sau khối đó.
+### *Cú pháp của lệnh break trong Java như sau: __break;__
+## Lệnh continue trong java;
+# link (https://www.javatpoint.com/java-continue);
+### - Từ khóa continue có thể được sử dụng trong bất kỳ cấu trúc điều khiển vòng lặp nào. Nó làm cho vòng lặp ngay lập tức tiếp tục tiến trình lặp tiếp theo của vòng lặp.
+## Comment trong java:
+# link (https://www.javatpoint.com/java-comments)
+### $-__mục đích__: Các đoạn comment này dùng để giải thích về ý nghĩa, công dụng của các biến, phương thức, các Class hoặc bất kỳ những dòng lệnh khác để cho chương trình của chúng ta dễ hiểu và dễ bảo trì hơn
+### - Trong Java, chúng ta có 3 cách comment code như sau
+### *
+ * Comment nhiều dòng
+ * Dòng 1
+ * Dòng 2
+ * ...
+ * Dòng n
+ 
+ */
+ 
+// Comment 1 dòng
+ 
+/**
+ * Comment đặc biệt dùng để tạo Java code documentation ở định dạng HTML (Java Document)
+ 
+*/
