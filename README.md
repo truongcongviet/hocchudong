@@ -104,3 +104,16 @@ note everything I learned
  * Comment đặc biệt dùng để tạo Java code documentation ở định dạng HTML (Java Document)
  
 */
+# 23/03/2020
+## 1.Các ký tự ngắt văn bản trong Java:
+|Ký tự ngắt | Miêu tả|
+|----------:|:-------:|
+|/t|	Chèn một tab vào văn bản tại điểm này|
+|/b|	Chèn một backspace vào văn bản tại điểm này|
+|/n|	Chèn một dòng mới vào văn bản tại điểm này|
+|/r|	Chèn một carriage return  vào văn bản tại điểm này|
+|/f|	Chèn một form feed vào văn bản tại điểm này|
+## 2.1Biến Static trong java:
+### - Biến static có thể được sử dụng để tham chiếu thuộc tính chung của tất cả đối tượng (mà không là duy nhất cho mỗi đối tượng),
+### - Biến static giúp bộ nhớ chương trình của bạn được sử dụng hiệu quả hơn
+
