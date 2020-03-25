@@ -45,7 +45,8 @@ note everything I learned
 ## Đây là link bài học [Loopinjava](https://www.javatpoint.com/java-for-loop)
 ## ![alt text](https://www.javatpoint.com/java-for-loop/java-loops.png)
 ## 1_ For Loop
-- Sử dụng khi biết rõ về số lần lặp, cú pháp vòng lặp __for__ là:
+### - Vòng for là cấu trúc hỗ trợ việc viết các vòng lặp mà số lần lặp được kiểm soát bằng biến đếm
+### - Sử dụng khi biết rõ về số lần lặp, cú pháp vòng lặp __for__ là:
 ### for(init; condition; incr/decr){
 ### // code to be executed 
 ### }
@@ -57,29 +58,37 @@ note everything I learned
 - __Decrement__  thi hành mỗi lần đến cuỗi vòng lặp
 ## 2_ WHILE loop:
 
+### - Vòng while lặp đi lặp lại chuỗi hành động, gọi là thân vòng lặp, nếu như điều kiện lặp vẫn còn được thỏa mãn
+
 ### - Vòng lặp __while__ thi hành khối lệnh khi mà điều kiện kiểm tra vẫn là __true__ , Cú pháp thực thi câu lệnh:
 
-### while(condition){  
-### //code to be executed 
+### while(điều kiện lặp){  
+### //Nội dụng cần lặp
 ### }
 ## 3_ DO WHILE LOOP:
 
 ### - Tương tự vòng lặp while nhưng khối lệnh thi hành trước rồi mới kiểm tra điều kiện, nếu điều kiện đúng thì lặp lại. Có nghĩa là do ... while khối lệnh luôn có ít nhất một lần được thi hành
 
 ### do{  
-### //code to be executed  
-### while(condition); 
+### // thân vòng lặp 
+### while(điều kiện lặp); 
 
 # Switch Case: 
 ## - Đây là link bài học [Switch](https://www.javatpoint.com/java-switch)
 
 ### - Lệnh switch rẽ nhánh, nó kiểm tra biến với một danh sách giá trị. Một giá trị gọi là một trường hợp case, và khối lệnh thi hành từ đó nếu điều kiện kiểm tra trên là đúng.
 
+### - Vấn đề đặc biệt của cấu trúc switch là các lệnh break. Nếu ta không tự gắn một lệnh break vào cuối chuỗi lệnh cần thực hiện cho mỗi trường hợp, chương trình sẽ chạy tiếp chuỗi lệnh của trường hợp sau chứ không tự động nhảy tới cuối cấu trúc switch
+
+### - NOTE: Kể từ Java SE 7, ta có thể dùng các đối tượng String làm nhãn cho các lệnh case
+
 ### - Nếu expression không bằng giá trị nào trong các case thì có hai trường hợp xảy ra: Nếu có khối default: thì sẽ chạy code từ đây, nếu không có default: khi không có code nào trong khối switch thi hành.
 # 22/03/2020
 ## Lệnh Break trong java
 ## Link (https://www.javatpoint.com/java-break)
 ### - Từ khóa break được sử dụng để dừng toàn bộ vòng lặp. __Từ khóa break phải được sử dụng bên trong bất kỳ vòng lặp nào hoặc một lệnh switch.__ 
+### - Lệnh break khi được thực thi bên trong một cấu trúc lặp hay một cấu trúc switch có tác dụng lập tức chấm dứt cấu trúc đó, chương trình sẽ chạy tiếp ở lệnh nằm tiếp sau cấu trúc đó. Lệnh break thường được dùng để kết thúc sớm vòng lặp (thay vì đợi đến lượt kiểm tra điều kiện lặp) hoặc để bỏ qua phần còn lại của cấu trúc switch.
+
 ### - Từ khóa break sẽ dừng sự thực thi của vòng lặp trong cùng và bắt đầu thực thi dòng code tiếp theo sau khối đó.
 ### *Cú pháp của lệnh break trong Java như sau: __break;__
 ## Lệnh continue trong java;
@@ -116,4 +125,43 @@ note everything I learned
 ## 2.1Biến Static trong java:
 ### - Biến static có thể được sử dụng để tham chiếu thuộc tính chung của tất cả đối tượng (mà không là duy nhất cho mỗi đối tượng),
 ### - Biến static giúp bộ nhớ chương trình của bạn được sử dụng hiệu quả hơn
+# 25/03/2020
+## Hàm Nhập xuất dữ liệu Scanner
+### - Để sử dụng từ khóa Scanner cần phải Import gói java.untill.Scanner
+### - Để sử dụng phương thức Scanner thì cần tạo đối tượng Scanner trong Java như sau: Scanner input = new Scanner (System.in);
+### - Các phương thức thường được sử dụng của lớp Scanner trong java:
+|Phương thức| Mô tả|
+|-----------:|:-----:|
+|public String text()|Trả về kết quả nội dụng trước khoảng trắng|
+|public String textLine()|Trả về kết quả nội dụng của một chuỗi nhập vào (String)|
+|public String nextInt()|Trả về kết quả kiểu Interger|
+## Các phép toán trong java:
+## 1- Toán tử số học trong Java:
+|toan tử| Miêu Tả|
+|------:|:-------:|
+| + | Phép Cộng|
+| - | phép trừ: trừ toán hạng trái cho toán hạn phải|
+| * | Phép nhân|
+| / | phép Chia: Chia toán hạng trái cho toán hạng phải|
+| % | Phép chia lấy phần dư: Lấy phần dư của phép chia toán hạng trái cho toán hạng phải|
+| ++ | Phép lượng gia: lượng gia giá trị toán hạng thêm 1|
+| -- | Phép lượng giảm: lượng giảm giá trị toán hạng đi 1| 
+
+## 2 - Toán tử quan hệ trong java:
+| toán tử | Miêu tả| 
+|--------:|:------:|
+| == | Kiểm tra nếu giá trị của hai toán hạng có cân bằng hay không, nếu có thì điều kiện là true.|
+| != | Kiểm tra nếu giá trị hai toán hạng là cân bằng hay không, nếu không cân bằng, thì điều kiện là true|
+| > | Kiểm tra nếu toán hạng trái có lớn hơn toán hạng phải hay không, nếu có thì điều kiện là true|
+| < | Kiểm tra nếu toán hạng phải có lớn hơn toán hạng trái hay không, nếu có thì điều kiện là true|
+| <= | Kiểm tra nếu toán hạng trái có lớn hơn hoặc bằng toán hạng phải hay không, nếu có thì điều kiện là true|
+| >= | Kiểm tra nếu toán hạng phải có lớn hơn hoặc bằng toán hạng trái hay không, nếu có thì điều kiện là true|
+
+## 3- Toán tử logic trong java
+ 
+| Toán tử | Miêu tả|
+|--------:|:-------:|
+| && | Toán tử Và logic. Nếu cả hai toán hạng cùng 1 điều kiện , thì khi đó điều kiện là true|
+| // | Toán tử Và logic. Nếu 1 trong 2 toán hạng cùng đúng điều kiện , thì khi đó điều kiện là true |
+| ! | Toán tử Phủ định logic. Sử dụng để đảo ngược lại trạng thái logic của toán hạng đó. Nếu điều kiện toán hạng là true thì phủ định nó sẽ là false|
 
