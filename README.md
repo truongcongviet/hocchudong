@@ -164,4 +164,14 @@ note everything I learned
 | && | Toán tử Và logic. Nếu cả hai toán hạng cùng 1 điều kiện , thì khi đó điều kiện là true|
 | // | Toán tử Và logic. Nếu 1 trong 2 toán hạng cùng đúng điều kiện , thì khi đó điều kiện là true |
 | ! | Toán tử Phủ định logic. Sử dụng để đảo ngược lại trạng thái logic của toán hạng đó. Nếu điều kiện toán hạng là true thì phủ định nó sẽ là false|
+# 26/03/2020
+## 1- Object trong java:
+### - Đối tượng là 1 thực thể có trạng thái và hành vi dùng để thể hiện kết quả của 1 lớp.
+### - Ta phải phân biệt rõ giữa biến tham chiếu đối tượng và đối tượng trong java
+### - Có 4 cách để khởi tạo đối tượng trong java;
+#### + Sử dụng từ khóa new
+#### + Sử dụng phương thức newInstance()
+#### + Sử dụng phương thức clone()
+#### + Sử dụng phương thức factory,...
+### - Khi ta dùng lệnh new để khởi tạo 1 đối tượng thì Java sẽ thực hiện 1 phương thức đăc biệt được gọi là Hàm Khởi Tạo (Contructor)
 
