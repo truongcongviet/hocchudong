@@ -186,5 +186,14 @@ _*(nói chuyện) là các phương thức đang gọi lẫn nhau*_
 #### 1. Một lớp dành cho kiểu đối tượng mà ta muốn tạo.
 #### 2. Một lớp khác để thử nghiệm lớp đó.
 * Lớp thử nghiệm là chương trình nơi ta đặt phương thức __*main*__ , và tại phương thức main đó ta tạo và sử dụng một đối tượng thuộc lớp vừa xây dựng. Lớp thử nhiệm chỉ có một nhiệm vụ duy nhát: chạy thử các biến và phương thức của lướp đối tượng mới.
-
+## Hàm Contructor trong Java:
+### - Contructor là 1 phương thức đặt biệt được sủ dụng để khởi tạo một đối tượng.
+### Đặc điểm của 1 hàm Contructor:
+* Một Contructor trong java phỉa có kiểu trả về rõ ràng.
+* Nõ có thể là abtract, final, static.
+* trên của __contructor__ phải giống với tên class của nó.
+### Trong Java có 2 kiểu Contructor
+1 - Default Contructor (hàm khởi tạo)
+<class_name>(){};
+2 - Parametezited Contructor ( Hàm khởi tạo có đối số)
 
