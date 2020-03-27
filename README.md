@@ -174,4 +174,17 @@ note everything I learned
 #### + Sử dụng phương thức clone()
 #### + Sử dụng phương thức factory,...
 ### - Khi ta dùng lệnh new để khởi tạo 1 đối tượng thì Java sẽ thực hiện 1 phương thức đăc biệt được gọi là Hàm Khởi Tạo (Contructor)
+## Những đặc điểm quan trọng của Object in Java:
+1.  Một đối tượng có thẻ tự lo cho bản thân , ta không phải cần biết hay quan tâm một đối tượng làm việc đó ntn.
+2.  một đói tượng __biết__ về một số thứ và có thể __làm__ một số việc.
+3.  Những gì đối tượng biết về chính nó được gọi là các __biến thực thể (thuộc tính )__ của nó. chúng đại diện cho trạng thái của đối tượng.
+4.  Những gì một đối tượng có thể __làm__ đgl __*phương thức*__. Chúng đại diện cho hành vi của đối tượng.
+5.  __Tại thời gian chương trình chạy, một đối tượng java chính là 1 nhóm các đối tượng đang "nói chuyện" với nhau.__  
+_*(nói chuyện) là các phương thức đang gọi lẫn nhau*_
+## Tạo và sử dụng đối tượng:
+### Để tạo và sử dụng một đối tượng, ta cần đến hai lớp:
+#### 1. Một lớp dành cho kiểu đối tượng mà ta muốn tạo.
+#### 2. Một lớp khác để thử nghiệm lớp đó.
+* Lớp thử nghiệm là chương trình nơi ta đặt phương thức __*main*__ , và tại phương thức main đó ta tạo và sử dụng một đối tượng thuộc lớp vừa xây dựng. Lớp thử nhiệm chỉ có một nhiệm vụ duy nhát: chạy thử các biến và phương thức của lướp đối tượng mới.
+
 
