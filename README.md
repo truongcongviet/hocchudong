@@ -167,6 +167,10 @@ note everything I learned
 # 26/03/2020
 ## 1- Object trong java:
 ## Link :(https://www.javatpoint.com/object-and-class-in-java)
+### - Lớp là  khuôn mẫu để từ đó tạo ra có đối tượng, khi thiết kế một lớp ta cần nghĩ đến những đối tượng sẽ được tạo ra từ lớp đó.
+### - Có 2 thông tin quan trọng trong mỗi đối tượng:
+* Những thông tin mà đối tượng đó __biết__
+* Những việc mà đối tượng đó __làm__
 ### - Đối tượng là 1 thực thể có trạng thái và hành vi dùng để thể hiện kết quả của 1 lớp.
 ### - Ta phải phân biệt rõ giữa biến tham chiếu đối tượng và đối tượng trong java
 ### - Có 4 cách để khởi tạo đối tượng trong java;
