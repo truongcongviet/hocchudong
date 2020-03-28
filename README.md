@@ -43,7 +43,7 @@ note everything I learned
 ### <kiểu dữ liệu> [] <tên mảng> = new <kiểu dữ liệu>[kích cỡ mảng];
 # Vòng lặp (loop):
 ## Đây là link bài học [Loopinjava](https://www.javatpoint.com/java-for-loop)
-## ![alt text](https://www.javatpoint.com/java-for-loop/java-loops.png)
+## ![image](https://media.geeksforgeeks.org/wp-content/uploads/Loop1.png)
 ## 1_ For Loop
 ### - Vòng for là cấu trúc hỗ trợ việc viết các vòng lặp mà số lần lặp được kiểm soát bằng biến đếm
 ### - Sử dụng khi biết rõ về số lần lặp, cú pháp vòng lặp __for__ là:
@@ -57,6 +57,7 @@ note everything I learned
 
 - __Decrement__  thi hành mỗi lần đến cuỗi vòng lặp
 ## 2_ WHILE loop:
+## ![Loop](https://kynangso.net/courses/bai-7-vong-lap-trong-java-loop-in-java.html/Bài-7-Vòng-lặp-trong-Java-Loops-in-Java-type.png)
 
 ### - Vòng while lặp đi lặp lại chuỗi hành động, gọi là thân vòng lặp, nếu như điều kiện lặp vẫn còn được thỏa mãn
 
