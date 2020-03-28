@@ -196,4 +196,7 @@ _*(nói chuyện) là các phương thức đang gọi lẫn nhau*_
 1 - Default Contructor (hàm khởi tạo)
 <class_name>(){};
 2 - Parametezited Contructor ( Hàm khởi tạo có đối số)
+* tên của contructor phải trùng tên của lớp để phân biệt với phương thức bình thường.
+* Một lớp có thể có nhiều contructor, nhưng tham số truyền vào phải khác nhau.
+* với 1 lớp có nhiều contructor ta có thể gọi từ Contructor này đến Contructor khác. 
 
