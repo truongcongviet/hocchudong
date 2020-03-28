@@ -192,6 +192,11 @@ _*(nói chuyện) là các phương thức đang gọi lẫn nhau*_
 #### 1. Một lớp dành cho kiểu đối tượng mà ta muốn tạo.
 #### 2. Một lớp khác để thử nghiệm lớp đó.
 * Lớp thử nghiệm là chương trình nơi ta đặt phương thức __*main*__ , và tại phương thức main đó ta tạo và sử dụng một đối tượng thuộc lớp vừa xây dựng. Lớp thử nhiệm chỉ có một nhiệm vụ duy nhát: chạy thử các biến và phương thức của lướp đối tượng mới.
+## 1.Trạng Thái của đối tượng:
+### Trạng thái của đối tượng nói lên tính đặc thù hay đặc trưng của đối tượng đó.
+## 2.Hành Vi của đối tượng:
+### - là hành động mà đối tượng có trách nhiệm phải thực hiện.
+
 ## Hàm Contructor trong Java:
 ## link: (https://www.javatpoint.com/java-constructor)
 ### - Contructor là 1 phương thức đặt biệt được sủ dụng để khởi tạo một đối tượng.
