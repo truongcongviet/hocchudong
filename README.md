@@ -214,3 +214,19 @@ _*(nói chuyện) là các phương thức đang gọi lẫn nhau*_
 * Một Contructor chỉ được thực thi 1 lần khi từ khóa New được gọi
 ### 3 hàm khởi tạo có tham số
 ## Thư Viện sử lý sô liệu
+### 1- Decimalformat
+* DecimalFormat __dcf__ = new DecimaFormat("#.##");
++ Ví dụ: 3.33333 => 3.34
+### 2- DecimalFormatSymbol
+* DecimalFormatSymbols __dfs__ = new DeciamlFormatSymbol(Locale.getDault);
++ ví dụ : 1234567 ==> 1,234,567
+## Thư Viện Xử Lý ngày tháng trong java:
+### 1- Calendar:
+* Lấy ngày tháng năm hiện tại: Calendar cal = Calendar._*getInstance*-();
+* Lấy từng tiêu Chí: + cal.get(Calendar.YEAR);
+                     + cal.get(Calendar.MONTH);
+                     + cal.get(Calendar.DAY_OF_MONTH);
+* Thay đổi tiêu Chí: cal.set(Calendar.YEAR,1990);
+* Lấy ngày tháng: Date t = cal.getTime();
+
+### 
