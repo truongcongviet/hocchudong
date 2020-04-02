@@ -223,10 +223,26 @@ _*(nói chuyện) là các phương thức đang gọi lẫn nhau*_
 ## Thư Viện Xử Lý ngày tháng trong java:
 ### 1- Calendar:
 * __Lấy ngày tháng năm hiện tại__: Calendar cal = Calendar._*getInstance*-();
-* __Lấy từng tiêu Chí__: + cal.get(Calendar.__YEAR);
-                     + cal.get(Calendar.__MONTH);
-                     + cal.get(Calendar.__DAY_OF_MONTH);
+* __Lấy từng tiêu Chí__: + cal.get(Calendar.__YEAR__);
+                     + cal.get(Calendar.__MONTH__);
+                     + cal.get(Calendar.__DAY_OF_MONTH__);
 * __Thay đổi tiêu Chí__: cal.set(Calendar.YEAR,1990);
 * __Lấy ngày tháng__: Date t = cal.getTime();
 
-### 
+###  2 - SimpleDateFormat:
+### SimPleDateFormat sdf = new SimPleDateFormat("DD/MM/YYYY");
+## Thư Viện Xử Lý Toán Học:
+|Tên Phương Thức| Mô Tả|
+|--------------:|:-----:|
+|PI| Trả về giá trị PI|
+|abs(a)| trả về trị tuyệt đối của a|
+|max(a,b)|Trả về giá trị lớn nhắt giữa a và b|
+|min(a,b)| Trả về giá trị nhỏ  nhất giữa a và b|
+|sqrt(a)| Trả về căn bậc 2 của a|
+|Pow(x,y)| Trả về tính giá trị lũy thừa X^y|
+|sin(radian)| Tính sin, radian =Math.PI*goc/180.|
+
+### Hàm Random (Số nguyên):
+* Random rd = __new__ Random();
+- Ví dụ: int x = rd.nextInt(n);
++ Trả về ngẫu nhiên từ [0...n-1]
