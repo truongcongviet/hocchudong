@@ -222,11 +222,11 @@ _*(nói chuyện) là các phương thức đang gọi lẫn nhau*_
 + ví dụ : 1234567 ==> 1,234,567
 ## Thư Viện Xử Lý ngày tháng trong java:
 ### 1- Calendar:
-* Lấy ngày tháng năm hiện tại: Calendar cal = Calendar._*getInstance*-();
-* Lấy từng tiêu Chí: + cal.get(Calendar.YEAR);
-                     + cal.get(Calendar.MONTH);
-                     + cal.get(Calendar.DAY_OF_MONTH);
-* Thay đổi tiêu Chí: cal.set(Calendar.YEAR,1990);
-* Lấy ngày tháng: Date t = cal.getTime();
+* __Lấy ngày tháng năm hiện tại__: Calendar cal = Calendar._*getInstance*-();
+* __Lấy từng tiêu Chí__: + cal.get(Calendar.__YEAR);
+                     + cal.get(Calendar.__MONTH);
+                     + cal.get(Calendar.__DAY_OF_MONTH);
+* __Thay đổi tiêu Chí__: cal.set(Calendar.YEAR,1990);
+* __Lấy ngày tháng__: Date t = cal.getTime();
 
 ### 
