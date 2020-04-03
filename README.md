@@ -246,3 +246,12 @@ _*(nói chuyện) là các phương thức đang gọi lẫn nhau*_
 * Random rd = __new__ Random();
 - Ví dụ: int x = rd.nextInt(n);
 + Trả về ngẫu nhiên từ [0...n-1]
+# 03/04/2020
+## Thư viện xử lý chuỗi
+### StringBuilder:
+* Lớp StringBuilder
+- StringBuilder __sb__ = new StringBuilder();
++ sb.apppend (); ==> nhập 1 chuỗi String
++ sb.Insert(int offset, String ); ==> thêm vào 1 chuỗi từ 1 vị trí thứ Offset;
++ sb.delete(int StartIndex, int endIndex); ==> xóa 1 chuỗi từ ví trí bắt đầu đến vị trí kết thúc
+
