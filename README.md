@@ -264,3 +264,5 @@ _*(nói chuyện) là các phương thức đang gọi lẫn nhau*_
 * Đổi chuỗi s thì chuỗi S2
 ### ReplaceFirst("String s","String S2");
 * Đổi chuỗi s ở vị trí xuất hiện đầu tien thành S2
+## Hàm xóa khoảng trắng dư thừa trong chuỗi
+### 
