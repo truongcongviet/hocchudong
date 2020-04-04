@@ -254,4 +254,13 @@ _*(nói chuyện) là các phương thức đang gọi lẫn nhau*_
 + sb.apppend (); ==> nhập 1 chuỗi String
 + sb.Insert(int offset, String ); ==> thêm vào 1 chuỗi từ 1 vị trí thứ Offset;
 + sb.delete(int StartIndex, int endIndex); ==> xóa 1 chuỗi từ ví trí bắt đầu đến vị trí kết thúc
-
+## Hàm  tìm chuỗi trong String
+### Indexof("String s"); ==> kiểu trả về INT
+* Trả về vị trí ký tự đầu tiên
+### lastIndexof("String s"); ==> kiểu trả về INT
+* Trả về vị trí ký tự cuối cùng
+## Hàm đổi chuỗi trong String
+### Replace("String s","String S2"); 
+* Đổi chuỗi s thì chuỗi S2
+### ReplaceFirst("String s","String S2");
+* Đổi chuỗi s ở vị trí xuất hiện đầu tien thành S2
