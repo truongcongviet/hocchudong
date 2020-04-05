@@ -1,4 +1,4 @@
-# hocchudong
+# HỌC CHỦ ĐỘNG
 note everything I learned
 # Các khái niệm căn bản:
 ## lớp là dùng để định nghĩa một thực thể theo thuộc tính và hành động chung.
@@ -213,6 +213,47 @@ _*(nói chuyện) là các phương thức đang gọi lẫn nhau*_
 * Với 1 lớp có nhiều contructor ta có thể gọi từ Contructor này đến Contructor khác. __*sử dụng từ khóa THIS*__
 * Một Contructor chỉ được thực thi 1 lần khi từ khóa New được gọi
 ### 3 hàm khởi tạo có tham số
+## Hành Vi Của Đối TƯợng
+## 5.1 PHƯƠNG THỨC VÀ TRẠNG THÁI CỦA ĐỐI TƯỢNG:
+* __*This*__ là từ khóa có ý nghĩa là 1 tham chiếu đặc biệt chiếu đến đối tượng  chủ của phương thức hiện hành
+* __*Tham chiếu this*__  có thể được dùng để truy cập biến thực thể hoặc gọi phương thức đối với đối tượng  hiện hành
+## 5.2 TRUYỀN THAM SỐ VÀ GIÁ TRỊ TRẢ VỀ
+* ta gọi __*đối số*__ là những gì ta truyền vào phương thức, đối với Java __Đối số là 1 giá trị__
+* Khi lời gọi của phương thức đó đưuọc thực thi, giá trị __đối số__ đó được chép vào 1 __tham số__.
+* Khi đó __*tham số*__ thực chất chỉ là 1 biến địa phương của phương thức.
+_ trong một phương thức có thể có nhiều tham số. Khi khái báo dung dấu phẩy để tách chúng.
+* __*mỗi phương thức được khai báo với mỗi kiểu giá trị trả về*__
+* Nếu 1 phương thức cần trả về tham chiếu tới đối tượng hiện hành, nó dùng lệnh return THis
+## 5.3 CƠ CHẾ TRUYỀN BẰNG GIÁ TRỊ
+* Ngôn ngưc lập trình  sử dụng duy nhất một cơ chế truyền tham số: __Truyền bằng giá trị__ . Khi một đối số đươc truyền vào phương thức
+chỉ có giá trị của nó được chép vào tham số tương ứng.
+### Những Lưu ý quan trọng
+* Lớp định nghĩa những gì mà đối tượng biết và những gì đối tượng đó phải làm.
+* Những gì mà đối tượng biết là các biến thực thể của nó.
+* Những gì mà một đối tượng có thể làm là các phương thức của nó.
+* Số lượng và kiểu dữ liệu các giá trị truyền vào PT phải trung khớp với thứ tự và kiểu dữ liệu của các tham số được khai báo trong PT
+* __Một phương thức bắc buộc phải có kiểu giá trị trả về__
+## 5.4  ĐÓNG GÓI VÀ PHƯƠNG THỨC TRUY NHẬP
+### Có 2 loại phương thức truy nhập:
+* Các phương thức đọc dữ liệu của đối tượng và trả về dữ liệu đọc được còn gọi là các __Phương thức GET__
+* Các PT ghi dữ liệu vào các biến thực thể của đối tượng, Chúng nhận dữ liệu mới qua các tham số rồi ghi vào các biến liên quan được gọi là các __phương thức SET__
+## 5.5 KHAI BÁO VÀ KHỞI TẠO BIẾN THỰC THỂ
+### Các biến thực thể luôn có giá trị mặc định,nếu không gán 1 giá trị trước cho biến thực thể thì nó vẫn nhận giá trị mặc định là 0 nếu là số nguyên, 0.0 nếu là số thức và Null nếu là biến tham chiếu, False nếu là kiểu Boolean.
+## 5.6 BIẾN THỰC THỂ VÀ BIẾN ĐỊA PHƯƠNG
+* Biến thực thể khai báo bên trong lớp nhưng không ở trong 1 phương thức nào.
+* Biến địa phương được khai báo bên trong phương thức.
+* Biến địa phưng phải được khởi tạo trước khi sử dụng.
+* Biến địa phương thuộc về 1 Phương THức.
+* Biến thực thể  thuộc về 1 thực thể - Đối tượng chủ của nó.
+
+
+
+
+
+
+
+
+
 ## Thư Viện sử lý sô liệu
 ### 1- Decimalformat
 * DecimalFormat __dcf__ = new DecimaFormat("#.##");
@@ -265,4 +306,4 @@ _*(nói chuyện) là các phương thức đang gọi lẫn nhau*_
 ### ReplaceFirst("String s","String S2");
 * Đổi chuỗi s ở vị trí xuất hiện đầu tien thành S2
 ## Hàm xóa khoảng trắng dư thừa trong chuỗi
-### 
+
