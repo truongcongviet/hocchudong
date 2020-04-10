@@ -313,14 +313,45 @@ chỉ có giá trị của nó được chép vào tham số tương ứng.
 * Bằng 0 khì S1 = S2.
 * > 0 Khi S1>S2;
 * < 0 khi S1<S2;
-### 1- CompareToIgnorecase(); // So sánh không phân biệt in HOA
+### 2- CompareToIgnorecase(); // So sánh không phân biệt in HOA
 #### vd: String s1 = "Student";
 ####     String s2 = "STUDENT":
 ### => int x = s1.compareToIgnoreCase(s2);
 * Bằng 0 khì S1 = S2.
 * > 0 Khi S1>S2;
 * < 0 khi S1<S2;
-## Hàm Nối Chuỗi
+## 3. StringBuilder
+### Đối với _*StringBuilder*_, chúng ta có 4 loại phương thức phổ biến đó là: __append(), insert(), delete() và reserve().__
+### Phương thức append()
+
+#### - Phương thức append() là phương thức dùng để nối chuỗi thay thế cho dấu "+". Chúng ta nên sử dụng phương thức này trong trường hợp chúng ta cần nối chuỗi nhiều (*_đặc biệt là khi tương tác với file và dữ liệu từ Internet)*_.
+
+### Phương thức insert()
+
+#### - Phương thức insert() là phương thức dùng để chèn 1 ký tự/số/chuỗi vào 1 vị trí bất kỳ trong StringBuilder.
+
+### Phương thức delete() và deleteCharAt()
+
+#### Trong Java, chúng ta có 2 phương thức dùng để xóa ký tự đó là delete() và deleteCharAt().
+*VD: // Chuỗi con này bắt đầu tại chỉ số start và kéo dài đến ký tự có chỉ số (end - 1).
+ - stringBuilder.delete(int start, int end);
+ 
+ - // xóa 1 ký tự trong stringBuilder có chỉ số = index trong StringBuilder
+ - // sử dụng phương thức deleteCharAt()
+ - stringBuilder.deleteCharAt(7);
+ 
+### Phương thức reserve()
+
+#### Phương thức reserve() là phương thức dùng để đảo ngược các ký tự của StringBuilder.
+
+##### ublic static void main(String[] args) {
+#####    StringBuilder stringBuilder = new StringBuilder("StringBuilder");
+         
+#####    stringBuilder.reverse();
+#####    System.out.println("stringBuilder sau khi đảo ngược các ký tự là " + stringBuilder);
+##### }
+ 
+ 
 ### Nối ít chuỗi dùng dấu +
 * VD: String s = "Trung Quốc";
 #### s = s + "virus";
@@ -331,6 +362,5 @@ chỉ có giá trị của nó được chép vào tham số tương ứng.
 #### builder.append("Trung Quốc ");
 #### builder.append("Virus");
 #### System.out.println(builder.toString());
-
 
 
