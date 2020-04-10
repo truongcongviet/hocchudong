@@ -322,36 +322,73 @@ chỉ có giá trị của nó được chép vào tham số tương ứng.
 * < 0 khi S1<S2;
 ## 3. StringBuilder
 ### Đối với _*StringBuilder*_, chúng ta có 4 loại phương thức phổ biến đó là: __append(), insert(), delete() và reserve().__
-### Phương thức append()
+### A - Phương thức append()
 
 #### - Phương thức append() là phương thức dùng để nối chuỗi thay thế cho dấu "+". Chúng ta nên sử dụng phương thức này trong trường hợp chúng ta cần nối chuỗi nhiều (*_đặc biệt là khi tương tác với file và dữ liệu từ Internet)*_.
 
-### Phương thức insert()
+### B - Phương thức insert()
 
 #### - Phương thức insert() là phương thức dùng để chèn 1 ký tự/số/chuỗi vào 1 vị trí bất kỳ trong StringBuilder.
 
-### Phương thức delete() và deleteCharAt()
+### C - Phương thức delete() và deleteCharAt()
 
 #### Trong Java, chúng ta có 2 phương thức dùng để xóa ký tự đó là delete() và deleteCharAt().
-*VD: // Chuỗi con này bắt đầu tại chỉ số start và kéo dài đến ký tự có chỉ số (end - 1).
- - stringBuilder.delete(int start, int end);
+##### VD: // Chuỗi con này bắt đầu tại chỉ số start và kéo dài đến ký tự có chỉ số (end - 1).
+##### stringBuilder.delete(int start, int end);
  
- - // xóa 1 ký tự trong stringBuilder có chỉ số = index trong StringBuilder
- - // sử dụng phương thức deleteCharAt()
- - stringBuilder.deleteCharAt(7);
+ ##### // xóa 1 ký tự trong stringBuilder có chỉ số = index trong StringBuilder
+ ##### // sử dụng phương thức deleteCharAt()
+ ##### stringBuilder.deleteCharAt(7);
  
-### Phương thức reserve()
+### D- Phương thức reserve()
 
 #### Phương thức reserve() là phương thức dùng để đảo ngược các ký tự của StringBuilder.
 
-##### ublic static void main(String[] args) {
+##### public static void main(String[] args) {
 #####    StringBuilder stringBuilder = new StringBuilder("StringBuilder");
          
 #####    stringBuilder.reverse();
 #####    System.out.println("stringBuilder sau khi đảo ngược các ký tự là " + stringBuilder);
 ##### }
  
+## 4 - StringTokenizer
+### Khái Niệm: Trong Java, StringTokenizer được sử dụng để tách 1 chuỗi thành các phần tử (token) nhỏ hơn (tương tự như split()).
+
+### Tạo mới 1 StringTokenizer:
+#### Để sử dụng StringTokenizer, chúng ta cần import gói thư viện java.util.StringTokenizer của Java. Cú pháp import và khai báo StringTokenizer như sau:
+
+##### public static void main(String[] args) {
+##### // Dạng 1: Tạo 1 StringTokenizer mới 
+##### // với str là chuỗi mà chúng ta cần tách ra thành các token
+##### String str = "StringTokenizer dạng 1";
+##### StringTokenizer stringTokenizer1 = new StringTokenizer(str);
  
+##### // Dạng 2: Tạo 1 StringTokenizer mới 
+##### // với str1 là chuỗi mà chúng ta cần tách ra thành các token
+##### // và ký tự phân tách là "\n"
+##### String str1 = "StringTokenizer dạng 2";
+##### StringTokenizer stringTokenizer2 = new StringTokenizer(str1, "\n");
+         
+##### // Dạng 3: Tạo 1 StringTokenizer mới 
+##### // với str2 là chuỗi mà chúng ta cần tách ra thành các token
+##### // ký tự phân cách là "\t"
+##### // returnDelims có giá trị là true.
+##### String str2 = "StringTokenizer dạng 3";
+##### StringTokenizer stringTokenizer3 = new StringTokenizer(str2, "\t", true);
+##### }
+
+### Các phương thức của StringTokenizer
+#### Đối với StringTokenizer, chúng ta có 5 phương thức phổ biến đó là: countTokens(), hasMoreTokens(), nextToken(), hasMoreElements() và nextElement().
+|Tên Phương THức|Công Dụng|
+|--------------:|:-------:|
+|countTokens()|Trả về số các token còn lại.|
+|hasMoreTokens()|Trả về true nếu còn có token trong StringTokenizer và ngược lại trả về false (tương tự như hasMoreElements()).|
+|nextToken()|Trả về token kế tiếp trong StringTokenizer (tương tự như nextElement()).|
+|hasMoreElements()|Trả về true nếu còn có token trong StringTokenizer và ngược lại trả về false (tương tự như hasMoreTokens()).|
+|nextElement()|Trả về token kế tiếp trong StringTokenizer (tương tự với nextToken()).|
+
+
+
 ### Nối ít chuỗi dùng dấu +
 * VD: String s = "Trung Quốc";
 #### s = s + "virus";
