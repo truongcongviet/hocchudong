@@ -302,8 +302,23 @@ chỉ có giá trị của nó được chép vào tham số tương ứng.
 * Trả về vị trí ký tự cuối cùng
 ## Hàm đổi chuỗi trong String
 ### Replace("String s","String S2"); 
-* Đổi chuỗi s thì chuỗi S2
+* Đổi chuỗi s thành chuỗi S2
 ### ReplaceFirst("String s","String S2");
 * Đổi chuỗi s ở vị trí xuất hiện đầu tien thành S2
-## Hàm xóa khoảng trắng dư thừa trong chuỗi
+## Hàm so sánh chuỗi
+### 1- Compareto(); // So sánh có phân biệt IN HOA
+#### vd: String s1 = "Student";
+####     String s2 = "STUDENT":
+### => int x = s1.compareto(s2);
+* Bằng 0 khì S1 = S2.
+* > 0 Khi S1>S2;
+* < 0 khi S1<S2;
+### 1- CompareToIgnorecase(); // So sánh không phân biệt in HOA
+#### vd: String s1 = "Student";
+####     String s2 = "STUDENT":
+### => int x = s1.compareToIgnoreCase(s2);
+* Bằng 0 khì S1 = S2.
+* > 0 Khi S1>S2;
+* < 0 khi S1<S2;
+
 
