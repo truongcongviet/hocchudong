@@ -320,5 +320,17 @@ chỉ có giá trị của nó được chép vào tham số tương ứng.
 * Bằng 0 khì S1 = S2.
 * > 0 Khi S1>S2;
 * < 0 khi S1<S2;
+## Hàm Nối Chuỗi
+### Nối ít chuỗi dùng dấu +
+* VD: String s = "Trung Quốc";
+  s = s + "virus";
+  System.out.println(s);
+### Nối nhiều chuỗi dùng StringBuilder
+* Cách khai triển:
+ StringBuilder builder  = new StringBuilder();
+ builder.append("Trung Quốc ");
+ builder.append("Virus");
+ System.out.println(builder.toString());
+
 
 
