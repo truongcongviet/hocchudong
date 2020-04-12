@@ -387,17 +387,41 @@ chỉ có giá trị của nó được chép vào tham số tương ứng.
 |hasMoreElements()|Trả về true nếu còn có token trong StringTokenizer và ngược lại trả về false (tương tự như hasMoreTokens()).|
 |nextElement()|Trả về token kế tiếp trong StringTokenizer (tương tự với nextToken()).|
 
-
-
-### Nối ít chuỗi dùng dấu +
-* VD: String s = "Trung Quốc";
-#### s = s + "virus";
-#### System.out.println(s);
-### Nối nhiều chuỗi dùng StringBuilder
-* Cách khai triển:
-#### StringBuilder builder  = new StringBuilder();
-#### builder.append("Trung Quốc ");
-#### builder.append("Virus");
-#### System.out.println(builder.toString());
-
+## Phương thức java String
+### String charAt();
+#### - Phương thức charAt() trả về giá trị Char của chuỗi tại vị trí có chỉ số index được chỉ định được chỉ định. Index bắt đầu từ 0.
+#### - Cú pháp: public char charAt(int index).
+### String compareto();
+#### - Phương thức compareTo() so sánh các chuỗi cho trước với chuỗi hiện tại theo thứ tự từ điển. Nó trả về số dương, số âm hoặc 0.
+#### - Nếu chuỗi đầu tiên lớn hơn chuỗi thứ hai, nó sẽ trả về số dương (chênh lệch giá trị ký tự). Nếu chuỗi đầu tiên nhỏ hơn chuỗi thứ hai, nó sẽ trả về số âm và nếu chuỗi đầu tiên là bằng chuỗi thứ hai, nó trả về 0.
+#### - Cú pháp: public int compareTo(String anotherString).
+### String concat();
+#### - Phương thức concat() nối thêm chuỗi được chỉ định vào cuối chuỗi đã cho.
+### -ví dụ: 
+##### public class ConcatExample {
+##### public static void main(String args[]) {
+#####    String s1 = "java string";
+#####      s1.concat("is immutable");
+#####    System.out.println(s1);
+#####      s1 = s1.concat(" is immutable so assign it explicitly");
+#####    System.out.println(s1);
+##### }
+### output: 
+##### java string
+##### java string is immutable so assign it explicitly
+### String contains()
+#### - Phương thức contains() tìm kiếm chuỗi ký tự trong chuỗi này. Nó trả về true nếu chuỗi các giá trị char được tìm thấy trong chuỗi này, nếu không trả về false.
+### Ví dụ:
+##### public class ContainsExample {
+#####  public static void main(String args[]) {
+#####   String name = "what do you know about me";
+#####   System.out.println(name.contains("do you know"));
+#####   System.out.println(name.contains("about"));
+#####   System.out.println(name.contains("hello"));
+#####  }
+##### }
+### output: 
+##### true
+##### true
+##### _*false*_
 
