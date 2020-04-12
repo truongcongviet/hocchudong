@@ -424,4 +424,3 @@ chỉ có giá trị của nó được chép vào tham số tương ứng.
 ##### true
 ##### true
 ##### _*false*_
-
