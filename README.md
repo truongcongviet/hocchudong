@@ -424,3 +424,7 @@ chỉ có giá trị của nó được chép vào tham số tương ứng.
 ##### true
 ##### true
 ##### _*false*_
+# 17/04/2020
+## Các nội dung cần hiểu thêm về java
+### Sự khác nhau giwuax 2 bộ nhớ HEAP và STACK trong java?
+#### - Stack là 1 vùng nhớ dùng để lưu trữ các tham số và các biến local của phương thức mỗi khi phương thức được gọi(instaince).
